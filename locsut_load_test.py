@@ -7,7 +7,7 @@ import sys
 
 class Image_report(HttpUser):
     wait_time = between(1,3)
-    host =  f'http://158.179.24.240:31000'
+    host =  f'<url>'
     spawn_rate = 10
     image_dir = '/home/ubuntu/object_detection/object_detection/inputfolder'
     total_request = 0 
